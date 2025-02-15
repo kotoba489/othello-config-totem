@@ -85,6 +85,12 @@
             key-positions = <9 19>;
             timeout-ms = <32>;
         };
+
+        es {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+            timeout-ms = <32>;
+        };
     };
 
     behaviors {
