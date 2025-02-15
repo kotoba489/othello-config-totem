@@ -32,12 +32,6 @@
     combos {
         compatible = "zmk,combos";
 
-        zero {
-            bindings = <&kp N0>;
-            key-positions = <3 4>;
-            timeout-ms = <32>;
-        };
-
         pl {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <5 6>;
