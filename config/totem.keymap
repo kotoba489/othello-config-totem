@@ -97,6 +97,12 @@
             key-positions = <10 22>;
             timeout-ms = <32>;
         };
+
+        ppl {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <10 0>;
+            timeout-ms = <32>;
+        };
     };
 
     behaviors {
